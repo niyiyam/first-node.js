@@ -1,11 +1,11 @@
-var module = {};
+var calc = {};
 
-module.add(a,b){
-    return a+b;
+calc.add = function(a, b){
+    return a + b;
 }
 
-module.mult(a,b){
-    return a*b;
+calc.multiply = function(a, b){
+    return a * b;
 }
 
-module.exports = module;
+module.exports = calc;
