@@ -1,0 +1,7 @@
+var number = [1, 2, 3, 4, 5, 6];
+var numberMap = number.map(value => value+1);
+console.log(numberMap)
+var numberFilter = number.filter(value => value>3);
+console.log(numberFilter)
+var numberReduce = number.reduce((acc, cur) => acc+cur)
+console.log(numberReduce)
