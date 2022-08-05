@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 
 
 function func{
@@ -9,6 +9,11 @@ function func{
     let Decrease = () => {
         setnumber(number -1);
     }
+    useEffect(() =>{
+        if (number > 10){
+            console.log('10을 넘으셨군요')
+        }
+    },[number])
 
     return (
         <div>
