@@ -1,1 +1,3 @@
-console.log('hello, world!')
+function hi(text){
+    console.log(text)
+}
